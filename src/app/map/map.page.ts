@@ -47,7 +47,7 @@ export class MapPage implements OnInit {
   public dropLng: any;
   public pickupLat: any;
   public pickupLng: any;
-  zoom = 8;
+  zoom = 15;
   address: any;
   comingFrom: any;
   public markerOptions = {

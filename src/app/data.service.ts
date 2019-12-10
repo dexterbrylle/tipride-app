@@ -172,8 +172,8 @@ export class DataService {
 
   }];
   profileData = [{
-    image: '../../assets/image/Home.png',
-    name: 'Enappd',
+    image: '../../assets/image/chat6.jpg',
+    name: 'Maria Passenger',
     userType: 'Newcomer',
   }];
 
@@ -208,32 +208,28 @@ export class DataService {
   biograph = [{
     headerText: 'About you',
     header: 'Gender',
-    model: 'Male'
+    model: 'Female'
   }, {
     header: 'First name',
-    model: 'Enappd'
+    model: 'Maria'
   }, {
     header: 'Last name',
-    model: 'Youstart'
+    model: 'Passenger'
   }, {
     header: 'Year of birth',
-    model: '1993'
+    model: '1990'
   }, {
-    header: 'your Bio',
-    model: 'Describe yourself...',
-    button: 'Save profile info'
+    header: 'Your Bio',
+    model: 'Software Engineer'
   }, {
     header: 'email',
     label: 'Email',
-    model: 'store.enappd.com',
-    button: 'save email'
+    model: 'maria.passenger@email.com'
   }, {
-    header: 'Mobile number',
-    label: 'Region',
-    model: 'India(+91)',
-    label1: 'Phone number',
-    model1: '123 1234 123',
-    button1: 'save mobile number'
+    header: 'Contact Details',
+    label: 'Phone number',
+    model: '9171234567',
+    button: 'Save Preferences'
   }];
 
   preference = [{
@@ -1509,7 +1505,7 @@ export class DataService {
     para: 'Control the emails you want to get - all of them, just the important stuff or the bare minimum.you can always unsubscribe from the bottom of email.',
   },
   {
-    email: 'Enappd@Enappd.com.',
+    email: 'maria.passenger@gmail.com',
     toggle: false,
     emailDesc: 'Email not verified.Tap below to request a verification email.'
   }, {
@@ -1525,86 +1521,87 @@ export class DataService {
     toggle: true,
     des: 'I want to receive news, updates and offers from Carpool.'
   }];
-  cards = [{
-    'iconName': 'arrow-dropdown-circle',
-    'iconName2': 'pin',
-    'label': 'Near Delhi To Ajmer Bypass',
-    'image': '../../assets/image/mini.png',
-    'label2': 'Benar Road, Dadi Ka Phatak,',
-    'text': '10/13/17 at 20:26',
-    'text2': '325 Rs.',
-    'head': 'Maruti Suzuki alto(Sedan)',
-  },
+  cards = [
   {
     'iconName': 'arrow-dropdown-circle',
     'iconName2': 'pin',
-    'label': 'Near Delhi To Ajmer Bypass',
+    'label': 'Alabang Town Center',
     'image': '../../assets/image/mini.png',
-    'label2': 'Benar Road, Dadi Ka Phatak,',
-    'text': '10/13/17 at 20:26',
-    'text2': '325 Rs.',
-    'head': 'Maruti Suzuki alto(Sedan)',
+    'label2': 'Zuellig Building, Makati',
+    'text': '12/11/17 at 08:00 AM',
+    'text2': '',
+    'head': 'Toyota Fortuner (Black)',
   },
-  {
-    'iconName': 'arrow-dropdown-circle',
-    'iconName2': 'pin',
-    'label': 'Near Delhi To Ajmer Bypass',
-    'image': '../../assets/image/mini.png',
-    'label2': 'Benar Road, Dadi Ka Phatak,',
-    'text': '10/13/17 at 20:26',
-    'text2': '325 Rs.',
-    'head': 'Maruti Suzuki alto(Sedan)',
-  },
-  {
-    'iconName': 'arrow-dropdown-circle',
-    'iconName2': 'pin',
-    'label': 'Near Delhi To Ajmer Bypass',
-    'image': '../../assets/image/mini.png',
-    'label2': 'Benar Road, Dadi Ka Phatak,',
-    'text': '10/13/17 at 20:26',
-    'text2': '325 Rs.',
-    'head': 'Maruti Suzuki alto(Sedan)',
-  },
-  {
-    'iconName': 'arrow-dropdown-circle',
-    'iconName2': 'pin',
-    'label': 'Near Delhi To Ajmer Bypass',
-    'image': '../../assets/image/mini.png',
-    'label2': 'Benar Road, Dadi Ka Phatak,',
-    'text': '10/13/17 at 20:26',
-    'text2': '325 Rs.',
-    'head': 'Maruti Suzuki alto(Sedan)',
-  },
-  {
-    'iconName': 'arrow-dropdown-circle',
-    'iconName2': 'pin',
-    'label': 'Near Delhi To Ajmer Bypass',
-    'image': '../../assets/image/mini.png',
-    'label2': 'Benar Road, Dadi Ka Phatak,',
-    'text': '10/13/17 at 20:26',
-    'text2': '325 Rs.',
-    'head': 'Maruti Suzuki alto(Sedan)',
-  },
-  {
-    'iconName': 'arrow-dropdown-circle',
-    'iconName2': 'pin',
-    'label': 'Near Delhi To Ajmer Bypass',
-    'image': '../../assets/image/mini.png',
-    'label2': 'Benar Road, Dadi Ka Phatak,',
-    'text': '10/13/17 at 20:26',
-    'text2': '325 Rs.',
-    'head': 'Maruti Suzuki alto(Sedan)',
-  },
-  {
-    'iconName': 'arrow-dropdown-circle',
-    'iconName2': 'pin',
-    'label': 'Near Delhi To Ajmer Bypass',
-    'image': '../../assets/image/mini.png',
-    'label2': 'Benar Road, Dadi Ka Phatak,',
-    'text': '10/13/17 at 20:26',
-    'text2': '325 Rs.',
-    'head': 'Maruti Suzuki alto(Sedan)',
-  }
+  // {
+  //   'iconName': 'arrow-dropdown-circle',
+  //   'iconName2': 'pin',
+  //   'label': 'Near Delhi To Ajmer Bypass',
+  //   'image': '../../assets/image/mini.png',
+  //   'label2': 'Benar Road, Dadi Ka Phatak,',
+  //   'text': '10/13/17 at 20:26',
+  //   'text2': '325 Rs.',
+  //   'head': 'Maruti Suzuki alto(Sedan)',
+  // },
+  // {
+  //   'iconName': 'arrow-dropdown-circle',
+  //   'iconName2': 'pin',
+  //   'label': 'Near Delhi To Ajmer Bypass',
+  //   'image': '../../assets/image/mini.png',
+  //   'label2': 'Benar Road, Dadi Ka Phatak,',
+  //   'text': '10/13/17 at 20:26',
+  //   'text2': '325 Rs.',
+  //   'head': 'Maruti Suzuki alto(Sedan)',
+  // },
+  // {
+  //   'iconName': 'arrow-dropdown-circle',
+  //   'iconName2': 'pin',
+  //   'label': 'Near Delhi To Ajmer Bypass',
+  //   'image': '../../assets/image/mini.png',
+  //   'label2': 'Benar Road, Dadi Ka Phatak,',
+  //   'text': '10/13/17 at 20:26',
+  //   'text2': '325 Rs.',
+  //   'head': 'Maruti Suzuki alto(Sedan)',
+  // },
+  // {
+  //   'iconName': 'arrow-dropdown-circle',
+  //   'iconName2': 'pin',
+  //   'label': 'Near Delhi To Ajmer Bypass',
+  //   'image': '../../assets/image/mini.png',
+  //   'label2': 'Benar Road, Dadi Ka Phatak,',
+  //   'text': '10/13/17 at 20:26',
+  //   'text2': '325 Rs.',
+  //   'head': 'Maruti Suzuki alto(Sedan)',
+  // },
+  // {
+  //   'iconName': 'arrow-dropdown-circle',
+  //   'iconName2': 'pin',
+  //   'label': 'Near Delhi To Ajmer Bypass',
+  //   'image': '../../assets/image/mini.png',
+  //   'label2': 'Benar Road, Dadi Ka Phatak,',
+  //   'text': '10/13/17 at 20:26',
+  //   'text2': '325 Rs.',
+  //   'head': 'Maruti Suzuki alto(Sedan)',
+  // },
+  // {
+  //   'iconName': 'arrow-dropdown-circle',
+  //   'iconName2': 'pin',
+  //   'label': 'Near Delhi To Ajmer Bypass',
+  //   'image': '../../assets/image/mini.png',
+  //   'label2': 'Benar Road, Dadi Ka Phatak,',
+  //   'text': '10/13/17 at 20:26',
+  //   'text2': '325 Rs.',
+  //   'head': 'Maruti Suzuki alto(Sedan)',
+  // },
+  // {
+  //   'iconName': 'arrow-dropdown-circle',
+  //   'iconName2': 'pin',
+  //   'label': 'Near Delhi To Ajmer Bypass',
+  //   'image': '../../assets/image/mini.png',
+  //   'label2': 'Benar Road, Dadi Ka Phatak,',
+  //   'text': '10/13/17 at 20:26',
+  //   'text2': '325 Rs.',
+  //   'head': 'Maruti Suzuki alto(Sedan)',
+  // }
   ];
 
   changeFilterPicup(lat, lng, pickup) {

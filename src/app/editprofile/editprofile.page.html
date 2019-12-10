@@ -3,7 +3,7 @@
     <ion-buttons slot="start">
       <ion-back-button></ion-back-button>
     </ion-buttons>
-    <ion-title text-capitalize>editprofile</ion-title>
+    <ion-title text-capitalize>Edit Profile</ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -13,7 +13,7 @@
       <ion-avatar sot="start"
         [ngStyle]="{'background':'url(../../assets/image/chat6.jpg)','background-size':'cover','background-position':'center'}">
       </ion-avatar>
-      <ion-text color="secondary" padding-start>Choose profile photo</ion-text>
+      <ion-text color="secondary" padding-start>Choose Profile Photo</ion-text>
     </ion-item>
   </ion-list>
   <ion-list>
@@ -35,9 +35,6 @@
       <ion-item *ngIf="data.label1">
         <ion-label position="stacked" color="medium">{{data.label1}}</ion-label>
         <ion-input type="text" [(ngModel)]="data.model1" placeholder={{data.model1}}></ion-input>
-      </ion-item>
-      <ion-item *ngIf="data.button1" class="buttonClass">
-        <ion-button type="submit" expand="block" color="secondary" margin-vertical>{{data.button1}}</ion-button>
       </ion-item>
     </div>
 

@@ -15,8 +15,8 @@ import { DataService } from '../data.service';
   styleUrls: ['./totalpassengers.page.scss'],
 })
 export class TotalpassengersPage implements OnInit {
-  headerText = 'So ho many carpool passenger\'s can you take?';
-  headerTextticketBook = 'So ho many carpool passenger\'s would you ride?';
+  headerText = 'How many carpool passengers can you take?';
+  headerTextticketBook = 'How many are you taking this ride?';
   product = 0;
   show: boolean;
   passengerNo = '';

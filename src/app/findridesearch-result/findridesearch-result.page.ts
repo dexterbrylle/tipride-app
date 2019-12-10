@@ -39,37 +39,27 @@ export class FindridesearchResultPage implements OnInit {
       pickup: this.pickupLoc,
       destination: this.destLoc,
       image: '../../assets/image/images.jpg',
-      name: 'Allen Chanadenar',
-      car: 'Toyota prius 007,G5 5867, Mini white',
-      numberPlate: '5867 Traffic way',
-      cost: '500'
+      name: 'Juan dela Driver',
+      car: 'Honda CR-V (Red)',
+      numberPlate: 'DAK 8102',
+      cost: ''
     }, {
       pickup: this.pickupLoc,
       destination: this.destLoc,
       image: '../../assets/image/chat2.jpg',
-      name: 'Julia',
-      car: 'Toyota prius 007,G5 7855, Mini white',
-      numberPlate: '7855 Traffic way',
-      cost: '480'
+      name: 'Daisy Ridley',
+      car: 'Toyota Wigo (White)',
+      numberPlate: 'NCZ 2441',
+      cost: ''
 
     }, {
       pickup: this.pickupLoc,
       destination: this.destLoc,
       image: '../../assets/image/chat6.jpg',
-      name: 'Barbie',
-      car: 'Toyota prius 007,G5 7876, Mini white',
-      numberPlate: '7876 Traffic way',
-      cost: '800'
-
-    }, {
-      pickup: this.pickupLoc,
-      destination: this.destLoc,
-      image: '../../assets/image/chat7.jpg',
-      name: 'Cristina',
-      car: 'Toyota prius 007,G5 7856, Mini white',
-      numberPlate: '7856 Traffic way',
-      cost: '640'
-
+      name: 'Sophie Liot',
+      car: 'Toyota Fortuner (Black)',
+      numberPlate: 'DAR 4229',
+      cost: ''
     }];
   }
 

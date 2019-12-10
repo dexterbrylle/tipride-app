@@ -23,7 +23,7 @@
             <ion-text color="danger">{{time}}</ion-text>
           </div>
           <div class="circle">
-            <ion-text color="success">01:00</ion-text>
+            <ion-text color="success">{{time + 10}}</ion-text>
           </div>
         </div>
       </ion-col>
@@ -44,7 +44,7 @@
               <ion-text>{{destLoc}}</ion-text>
               <div class="flex">
                 <p>
-                  <ion-icon name="pin" expand="icon-only"></ion-icon>16.5km from your arrival
+                  <ion-icon name="pin" expand="icon-only"></ion-icon>15.5km from your arrival
                 </p>
               </div>
 
@@ -60,9 +60,9 @@
 
 
   <ion-item>
-    <ion-text slot="start" class="seatsCount">4 seats available</ion-text>
+    <ion-text slot="start" class="seatsCount">2 seats available</ion-text>
     <ion-label slot="end">
-      <ion-text class="costPrice">₹ {{rideData.cost}}</ion-text>
+      <ion-text class="costPrice"></ion-text>
       <p>per seat</p>
     </ion-label>
   </ion-item>
@@ -85,7 +85,7 @@
     </ion-item>
     <ion-item>
       <ion-icon name="car" slot="start" color="secondary"></ion-icon>
-      <ion-text color="success">Max.2 in the back seats</ion-text>
+      <ion-text color="success">Max 2 in the back seats</ion-text>
 
     </ion-item>
   </ion-list>

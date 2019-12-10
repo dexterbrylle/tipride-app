@@ -33,12 +33,9 @@ export class EditprofilePage implements OnInit {
       mediaType: this.camera.MediaType.PICTURE
     };
     this.camera.getPicture(options).then((imageData) => {
-      // imageData is either a base64 encoded string or a file URI
-      // If it's base64 (DATA_URL):
       const base64Image = 'data:image/jpeg;base64,' + imageData;
     }, (err) => {
       console.log(err);
-      // Handle error
     });
   }
   async showdataSavedToast() {

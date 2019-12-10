@@ -20,7 +20,7 @@ export class BookinstantlyPage implements OnInit {
   ngOnInit() {
   }
   gotoPrice() {
-    this.route.navigate(['recommendedprice']);
+    this.route.navigate(['comingback']);
 
   }
 }

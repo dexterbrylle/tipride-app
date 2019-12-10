@@ -45,7 +45,7 @@ export class PickupPage implements OnInit {
   searcOnChnage() {
     if (this.searchItem) {
       const service = new window['google'].maps.places.AutocompleteService();
-      service.getPlacePredictions({ input: this.searchItem, componentRestrictions: { country: 'IN' } }, (predictions, status) => {
+      service.getPlacePredictions({ input: this.searchItem, componentRestrictions: { country: 'PH' } }, (predictions, status) => {
         this.autocompleteItems = [];
         this.__zone.run(() => {
           if (predictions != null) {
