@@ -19,13 +19,10 @@ export class EditridePage implements OnInit {
 
   constructor(public route: Router, public service: DataService) {
     this.editData = [{
-      head: 'Journey & stops',
+      head: 'Trip Info',
       route: 'journey'
     }, {
-      head: 'Passenger contribution',
-      route: 'editpricelist'
-    }, {
-      head: 'Passenger options',
+      head: 'Passenger Options',
       route: 'passengersoption'
     }];
   }

@@ -22,131 +22,14 @@ export class ChatlistComponent implements OnInit {
   imageData: any;
   constructor(public modalCtrl: ModalController) {
     this.chatData = [{
-      'name': 'Enappd',
+      'name': 'Some Driver',
       'image': '../../assets/chat/enappd.png',
-      'description': ' Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim laboriosam sunt nulla minima ratione, pariatur quaerat aut ex a ullam? Officia, explicabo optio. Dolores, ab exercitationem? Neque illo soluta sapiente!',
-      'count': '2',
-      'time': '11:32 PM',
-
-      'distance': '6km',
-      'type': 'PRO', 'crown': '../../assets/chat/crown.png'
-
-    }, {
-      'name': 'Jovenica Alba',
-      'image': '../../assets/chat/chat1.jpg',
-      'description': ' Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim laboriosam sunt nulla minima ratione, pariatur quaerat aut ex a ullam? Officia, explicabo optio. Dolores, ab exercitationem? Neque illo soluta sapiente!',
-      'count': '2',
-      'time': '12:17',
-      'distance': '6km',
-      'type': 'PRO',
-      'crown': '../../assets/chat/crown.png',
-
-
-    }, {
-      'name': 'Oliver',
-      'image': ' ../../assets/chat/chat2.jpg',
-      'description': ' Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim laboriosam sunt nulla minima ratione, pariatur quaerat aut ex a ullam? Officia, explicabo optio. Dolores, ab exercitationem? Neque illo soluta sapiente!',
-      'time': '12:17',
-      'distance': '6km',
-      'type': 'Basic',
-      'crown': '../../assets/chat/crown1.png',
-
-    }, {
-      'name': 'George',
-      'image': ' ../../assets/chat/chat3.jpg',
-      'description': ' Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim laboriosam sunt nulla minima ratione, pariatur quaerat aut ex a ullam? Officia, explicabo optio. Dolores, ab exercitationem? Neque illo soluta sapiente!',
-      'count': '2',
-      'time': 'Yesterday',
-      'distance': '6km',
-      'type': 'Basic',
-      'crown': '../../assets/chat/crown1.png',
-
-    }, {
-      'name': 'Harry',
-      'image': ' ../../assets/chat/chat3.jpg',
-      'description': ' Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim laboriosam sunt nulla minima ratione, pariatur quaerat aut ex a ullam? Officia, explicabo optio. Dolores, ab exercitationem? Neque illo soluta sapiente!',
-      'time': 'Sunday',
-      'distance': '6km',
-      'type': 'PRO', 'crown': '../../assets/chat/crown.png',
-
-    }, {
-      'name': 'Jack',
-      'image': ' ../../assets/chat/chat5.jpg',
-      'description': ' Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim laboriosam sunt nulla minima ratione, pariatur quaerat aut ex a ullam? Officia, explicabo optio. Dolores, ab exercitationem? Neque illo soluta sapiente!',
-
-      'time': '11:15',
-      'distance': '6km',
-      'type': 'Basic',
-      'crown': '../../assets/chat/crown1.png',
-
-    }, {
-      'name': 'Jacob',
-      'image': ' ../../assets/chat/chat6.jpg',
-      'description': ' Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim laboriosam sunt nulla minima ratione, pariatur quaerat aut ex a ullam? Officia, explicabo optio. Dolores, ab exercitationem? Neque illo soluta sapiente!',
+      'description': 'Hi I\'m near the pickup location',
       'count': '1',
-      'time': 'Yesterday',
-      'distance': '6km',
-      'type': 'Basic',
-      'crown': '../../assets/chat/crown1.png',
+      'time': '7:30 AM',
 
-    }, {
-      'name': 'Noah',
-      'image': ' ../../assets/chat/chat7.jpg',
-      'description': ' Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim laboriosam sunt nulla minima ratione, pariatur quaerat aut ex a ullam? Officia, explicabo optio. Dolores, ab exercitationem? Neque illo soluta sapiente!',
-      'time': 'Monday',
-      'distance': '6km',
-      'type': 'PRO', 'crown': '../../assets/chat/crown.png',
-
-    }, {
-      'name': 'Charlie',
-      'image': ' ../../assets/chat/chat8.jpg',
-      'description': ' Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim laboriosam sunt nulla minima ratione, pariatur quaerat aut ex a ullam? Officia, explicabo optio. Dolores, ab exercitationem? Neque illo soluta sapiente!',
-      'count': '6',
-      'time': '07:00',
-      'distance': '6km',
-      'type': 'Basic',
-      'crown': '../../assets/chat/crown1.png',
-
-    }, {
-      'name': 'Logan',
-      'image': ' ../../assets/chat/chat1.jpg',
-      'description': ' Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim laboriosam sunt nulla minima ratione, pariatur quaerat aut ex a ullam? Officia, explicabo optio. Dolores, ab exercitationem? Neque illo soluta sapiente!',
-      'time': 'Yesterday',
-      'distance': '6km',
-      'type': 'PRO', 'crown': '../../assets/chat/crown.png',
-
-    }, {
-      'name': 'Harrison',
-      'image': ' ../../assets/chat/chat2.jpg',
-      'description': ' Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim laboriosam sunt nulla minima ratione, pariatur quaerat aut ex a ullam? Officia, explicabo optio. Dolores, ab exercitationem? Neque illo soluta sapiente!',
-
-      'time': 'Yesterday',
-      'distance': '6km',
-      'type': 'Basic', 'crown': '../../assets/chat/crown1.png',
-
-    }, {
-      'name': 'Sebastian',
-      'image': ' ../../assets/chat/chat3.jpg',
-      'description': ' Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim laboriosam sunt nulla minima ratione, pariatur quaerat aut ex a ullam? Officia, explicabo optio. Dolores, ab exercitationem? Neque illo soluta sapiente!',
-
-      'time': 'Yesterday',
-      'distance': '6km',
-      'type': 'PRO', 'crown': '../../assets/chat/crown.png'
-    }, {
-      'name': 'Zachary',
-      'image': ' ../../assets/chat/chat3.jpg',
-      'description': ' Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim laboriosam sunt nulla minima ratione, pariatur quaerat aut ex a ullam? Officia, explicabo optio. Dolores, ab exercitationem? Neque illo soluta sapiente!',
-      'time': 'Today',
-      'distance': '6km',
-      'type': 'Basic', 'crown': '../../assets/chat/crown1.png',
-
-    }, {
-      'name': 'Elijah',
-      'image': ' ../../assets/chat/chat5.jpg',
-      'description': ' Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim laboriosam sunt nulla minima ratione, pariatur quaerat aut ex a ullam? Officia, explicabo optio. Dolores, ab exercitationem? Neque illo soluta sapiente!',
-      'time': '18:25',
-      'distance': '6km',
-      'type': 'PRO', 'crown': '../../assets/chat/crown.png',
+      'distance': '0.5km',
+      'crown': '../../assets/chat/crown.png'
 
     }
     ];

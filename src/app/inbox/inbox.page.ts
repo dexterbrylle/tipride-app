@@ -18,34 +18,20 @@ export class InboxPage implements OnInit {
   public notifications = [
     {
       title: 'system',
-      subtitle: 'Booking #1234 has been Success...',
+      subtitle: 'Booking #1234 has been success...',
       iconUrl: '../../assets/success.png',
     },
     {
-      title: 'Parmotion',
-      subtitle: 'Inivite friend - Get 3 couponse each',
-      iconUrl: '../../assets/coupon.png',
-    },
-
-    {
-      title: 'Parmotion',
-      subtitle: 'Inivite friend - Get 3 couponse each',
+      title: 'Promotion',
+      subtitle: 'Invite friend - Get 3 coupons each',
       iconUrl: '../../assets/coupon.png',
     },
 
     {
       title: 'system',
-      subtitle: 'Booking #1234 has been Success...',
+      subtitle: 'Booking #1022 was cancelled...',
       iconUrl: '../../assets/error.png',
     },
-
-    {
-      title: 'system',
-      subtitle: 'Booking #1234 has been Success...',
-      iconUrl: '../../assets/success.png',
-    },
-
-
   ];
   constructor(public alertCtrl: AlertController) { }
 
